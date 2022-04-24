@@ -1,0 +1,69 @@
+<html>
+  <head>
+    
+  </head>
+  <body>
+ <!--  title    -->
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform </p>
+    <form id="survey-form">
+<!--   Enter name     -->
+      <label id="name-label">Name</label></br>
+      <input type="text" name="name" id="name" placeholder="Enter your name" required></br>
+<!--   Enter email     -->
+      <label id="email-label">Email</label></br>
+      <input type="email" name= "email" id="email" placeholder="Enter your Email" required=""></br>
+<!--   Enter age     -->
+      <label id="number-label">Age(optional)</label></br>
+      <input type="number" min= 10 max =99 name= "Age" placeholder="Age" id="number" reqiuerd=""></br>
+<!--   dropdown to select current role     -->
+      <label>Which option best describes your current role?</label></br>
+      <select id="dropdown" name="dropdown">
+        <option value="label" disabled selected>Select current role</option>
+        <option value="Student">Student</option>
+        <option value="Full Time Job">Full Time Job</option>
+        <option value="Full Time Learner">Full Time Learner</option>
+        <option value="Prefer not to say">Prefer not to say</option>
+        <option value="Other">Other</option>
+      </select></br>
+<!--radio button to select how strong will recommend freeCodeCamp -->
+      <label>Would you recommend freeCodeCamp to a friend?</label></br>
+      <div id="radio">
+      <label><input name="radio" value="definitely" type="radio" id="input-radio">Definitely</label></br>
+      <label><input name="radio" value="Maybe" type="radio" id="input-radio">Maybe</label></br> 
+      <label><input name="radio" value="Not sure" type="radio" id="input-radio">Not sure</label></br>
+</div>
+<!--  dropdown to select favorite feature of freeCodeCamp      -->
+      <label>What is your favorite feature of freeCodeCamp?</label></br>
+      <select id="dropdown" name="dropdown">
+        <option value="label" disabled selected>Select an option:</option>
+        <option value="Challenges">Challenges</option>
+        <option value="Projects">Projects</option>
+        <option value="Community">Community</option>
+        <option value="Open Source">Open Source</option>
+      </select></br>
+<!--   list for What would you like to see improved question      -->
+      <label>What would you like to see improved?</label>
+      <label>(Check all that apply)</label></br>
+<div id="input-checkbox">
+      <label><input type="checkbox" id="checkbox" name="checkbox1" value="Front-end Projects">Front-end Projects</label></br>
+      <label><input type="checkbox" id="checkbox" name="checkbox1" value="Back-end Projects">Back-end Projects</label></br>
+      <label><input type="checkbox" id="checkbox" name="checkbox3" value="Data Visualization">Data Visualization</label></br>
+      <label><input type="checkbox" id="checkbox" name="checkbox4" value="Challenges">Challenges</label></br>
+      <label><input type="checkbox" id="checkbox" name="checkbox5" value="Open Source Community">Open Source Community</label></br>
+      <label><input type="checkbox" id="checkbox" name="checkbox6" value="Gitter help rooms">Gitter help rooms</label></br>
+      <label><input type="checkbox" id="checkbox" name="checkbox7" value="Videos">Videos</label></br>
+      <label><input type="checkbox" id="checkbox" name="checkbox8" value="City Meetups">City Meetups</label></br>
+      <label><input type="checkbox" id="checkbox" name="checkbox9" value="Wiki">Wiki</label></br>
+      <label><input type="checkbox" id="checkbox" name="checkbox10" value="Form">Form</label></br>
+      <label><input type="checkbox" id="checkbox" name="checkbox11" value="Additional Courses">Additional Courses</label></br>
+  </div>
+<!--   textarea     -->
+      <label>Any comments or suggestions?</label></br>
+      <textarea id="textarea" placeholder="Enter your comment here..."></textarea></br>
+<!--   submit button     -->
+      <button id="submit">Submit</button>
+    </form>
+<!--   End Form   -->
+  </body>
+</html> 
